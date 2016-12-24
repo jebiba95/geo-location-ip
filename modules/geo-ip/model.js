@@ -18,13 +18,13 @@ var GeoIpSchema = new mongoose.Schema({
   lat: {
     type: String
   },
-  lng: {
+  lon: {
     type: String
   },
-  region: {
+  regionName: {
     type: String
   },
-  organization: {
+  org: {
     type: String
   },
   dateTime: {

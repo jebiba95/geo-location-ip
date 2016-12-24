@@ -62,9 +62,9 @@ function _createLocationObj(ip, res) {
     location.city = res.city;
     location.country = res.country;
     location.lat = res.lat;
-    location.lng = res.lon;
-    location.region = res.regionName;
-    location.organization = res.org;
+    location.lon = res.lon;
+    location.regionName = res.regionName;
+    location.org = res.org;
   }
   
   return location;
